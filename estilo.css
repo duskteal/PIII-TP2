@@ -1,0 +1,43 @@
+body{
+    background-color:ghostwhite;
+    font-family: Helvetica;
+}
+
+.titulo{
+    font-family: Arial;
+    text-align: center;
+    font-size: 50px;
+    color: orangered;
+}
+
+nav{
+    background-color:crimson;
+    padding: 10px;
+    margin: 0;
+}
+
+
+#pizarra{
+    background-color: #243135;
+    color: rgba(245, 245, 245, 0.755);
+    text-align: justify;
+    font-family: Georgia;
+    letter-spacing: 2px;
+    font-size: large;
+    box-sizing: content-box;
+    padding: 85px;
+    padding-left: 200px;
+    border: 15px solid rgb(58, 51, 42);
+    margin-left: 200px;
+    margin-right: 200px;
+
+    li{
+    margin-bottom: 30px;
+    }
+
+    #seleccionado{
+    text-align: right;
+    padding-right: 40px;
+}
+}
+
