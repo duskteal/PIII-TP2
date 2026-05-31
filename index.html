@@ -2,7 +2,7 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device">
+        <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="estilo.css"/>
         
         <title>Landing</title>
@@ -11,20 +11,23 @@
     <body>
         
         <header>
-            <h1 class="titulo">Meriendas de hoy</h1>
+            <h1 class="titulo">● Menú de Meriendas ●</h1>
         </header>
         <nav>
-            <a href="destacados.html">Destacados</a>
-            <a href="listado.html">Listado</a>
+            <span class="links"><a href="destacados.html">Destacados</a></span>
+            <span class="links"><a href="listado.html">Listado</a></span>
         </nav>
         <main>
-            <article>
-                <section id="pizarra">
+                <article id="pizarra">
+                    <h3 style="text-align: center; color: #e3dc4e">✭ Meriendas del día ✭</h3>
                         <ul id="listaMeriendas"></ul>
-                        <h3 id="seleccionado">Seleccionado</h3>
-                </section>
-            </article>
+                        <button id="botonContador">Ver cantidad de Meriendas</button>
+                        <p id="contadorDeMeriendas"; style="text-align: center"></p>
+                </article>
         </main>
+        <footer>
+            <p>Goyochea Enzo Mariano - Comisión B</p>
+        </footer>
         <script src="script.js"></script>
     </body>
 </html>

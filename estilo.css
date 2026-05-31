@@ -1,9 +1,10 @@
 body{
-    background-color:ghostwhite;
+    background-color:rgb(229, 242, 204);
     font-family: Helvetica;
 }
 
 .titulo{
+    background-color: rgb(249, 199, 106);;
     font-family: Arial;
     text-align: center;
     font-size: 50px;
@@ -13,9 +14,21 @@ body{
 nav{
     background-color:crimson;
     padding: 10px;
-    margin: 0;
-}
+    margin-bottom: 20px;
 
+    .links a:link, a:visited {
+        margin: 10px;
+        color: white;
+        text-decoration-color: transparent;
+    }
+        a:hover{
+            color: rgb(228, 236, 115);
+        }
+
+        a:active{
+            color: rgb(250, 166, 40);
+        }
+}
 
 #pizarra{
     background-color: #243135;
@@ -24,20 +37,41 @@ nav{
     font-family: Georgia;
     letter-spacing: 2px;
     font-size: large;
-    box-sizing: content-box;
-    padding: 85px;
-    padding-left: 200px;
+
+    width: 400px;
+    height: 400px;
+    padding: 5%;
+    padding-top: 2%;
     border: 15px solid rgb(58, 51, 42);
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 30%;
 
     li{
     margin-bottom: 30px;
     }
 
-    #seleccionado{
-    text-align: right;
-    padding-right: 40px;
+    #botonContador{
+    margin-left: 25%;
+    padding: 5px;
+    font-size: medium;
+    
+    }
+    #contadorDeMeriendas{
+        color: #e3dc4e;
+        margin-left: 15px;
+    }
+
+    .seleccionado{
+        text-decoration:underline;
+        text-decoration-color: #e3dc4e;
+    }
 }
+
+footer p{
+    text-align: center;
+    padding-top: 10px;
+    border-top: 2px solid;
+    border-color: brown;
+    margin-top: 10px;
 }
+
 
