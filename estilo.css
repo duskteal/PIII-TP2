@@ -15,19 +15,19 @@ nav{
     background-color:crimson;
     padding: 10px;
     margin-bottom: 20px;
-
-    .links a:link, a:visited {
-        margin: 10px;
-        color: white;
+}
+.links a:link, a:visited{
+    margin: 10px;
+    color: white;
+    text-decoration-color: transparent;
+}
+.links a:hover{
+        color: rgb(228, 236, 115);
         text-decoration-color: transparent;
-    }
-        a:hover{
-            color: rgb(228, 236, 115);
-        }
-
-        a:active{
-            color: rgb(250, 166, 40);
-        }
+}
+.links a:active{
+        color: rgb(250, 166, 40);
+        text-decoration-color: transparent;
 }
 
 #pizarra{
@@ -59,11 +59,6 @@ nav{
         color: #e3dc4e;
         margin-left: 15px;
     }
-
-    .seleccionado{
-        text-decoration:underline;
-        text-decoration-color: #e3dc4e;
-    }
 }
 
 footer p{
@@ -74,4 +69,44 @@ footer p{
     margin-top: 10px;
 }
 
+#contenedorTarjetas{
+    float: left;
+    margin: 40px;
+    margin-left: 100px;
+    color: rgb(29, 28, 33);
+}
 
+.tarjeta{
+    text-align: center;
+    font-family: Verdana;
+    background-color: rgb(64, 130, 191);
+    border: #243135 solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 20px;
+    
+}
+
+#contenedorSelecciones{
+    text-align: center;
+    font-size: 30px;
+    color:coral;
+    width: 300px;
+    height: 50px;
+    float: right;
+    padding: 50px;
+    padding-bottom: 100px;
+    margin-top: 250px;
+    margin-right: 80px;
+    border: #243135 solid;
+    background-color: rgb(0, 58, 60);
+
+}
+
+
+.seleccionado{
+    color: #00272c;
+    background-color: rgb(48, 207, 255)
+}
