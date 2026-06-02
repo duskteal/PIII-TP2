@@ -64,6 +64,4 @@ function actualizarContador(){
     else{
         contadorTexto.remove();
     }
-}
-
-
+};

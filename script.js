@@ -27,4 +27,4 @@ botonContador.addEventListener("click", () => {
     contadorDeMeriendas.textContent = "Cantidad de Meriendas: " + contador;
     console.log(contador);
     }
-)
+);
