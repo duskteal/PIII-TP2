@@ -30,7 +30,7 @@ function listaApps(){
                 textoApp.classList.add("appsInstaladas")
             }
             else{
-                textoApp.classList.add("tarjeta");
+                textoApp.classList.add("appsTarjeta");
             };
             
             textoApp.textContent = aplicacion.nombre;

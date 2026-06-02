@@ -3,14 +3,41 @@ html {
 }
 
 body{
-    background-color:rgb(229, 242, 204);
-    font-family: Helvetica;
-    min-height: 100%;
+        font-family: Helvetica;
+        min-height: 100%;
 }
 
+#colores1{
+    background-color:rgb(229, 242, 204);
+}
 
+#colores2{
+    background-color: white;
+}
 
-.titulo{
+#colores3{
+    background-color: #19282d;
+}
+
+#nav1{
+    background-color:crimson;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#nav2{
+    background-color:rgb(20, 173, 220);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#nav3{
+    background-color:rgb(126, 0, 146);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.titulo1{
     background-color: rgb(249, 199, 106);;
     font-family: Arial;
     text-align: center;
@@ -18,11 +45,23 @@ body{
     color: orangered;
 }
 
-nav{
-    background-color:crimson;
-    padding: 10px;
-    margin-bottom: 20px;
+.titulo2{
+    background-color: rgb(211, 106, 249);;
+    font-family: Arial;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(135, 16, 137);
 }
+
+.titulo3{
+    background-color: rgb(30, 187, 51);;
+    font-family: Arial;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(0, 73, 49);
+}
+
+
 .links a:link, a:visited{
     margin: 10px;
     color: white;
@@ -86,15 +125,25 @@ footer p{
 #contenedorApp{
     margin: 40px;
     margin-left: 100px;
-    color: rgb(29, 28, 33);
+    color: rgb(17, 16, 16);
     float: left;
 }
 
 .appsInstaladas{
     text-align: center;
-    font-family: Verdana;
-    background-color: rgb(64, 185, 191);
-    border: #243135 solid;
+    background-color: #35e891;
+    border: #105031 solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 20px;
+}
+
+.appsTarjeta{
+    text-align: center;
+    background-color: #01646f;
+    border: #023338 solid;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 100px;
@@ -105,7 +154,7 @@ footer p{
 #btnSoloInstaladas{
     text-align: center;
     font-size: 30px;
-    color:rgb(255, 39, 39);
+    color:#048084;
     width: 300px;
     height: 50px;
     float: right;
@@ -113,9 +162,9 @@ footer p{
     padding-bottom: 100px;
     margin-top: 250px;
     margin-right: 80px;
-    border: #243135 solid;
+    border: #001112 solid;
     border-radius: 10%;
-    background-color: rgb(0, 58, 60);
+    background-color: #012021;
 }
 
 .tarjeta{
